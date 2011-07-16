@@ -1,4 +1,10 @@
 Changes
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+dist.ini
 inc/Module/AutoInstall.pm
 inc/Module/Install.pm
 inc/Module/Install/AutoInstall.pm
@@ -14,16 +20,13 @@ inc/Module/Install/WriteAll.pm
 lib/Catalyst/Engine/JobQueue/POE.pm
 lib/Catalyst/Helper/JobQueue/POE.pm
 lib/Catalyst/JobQueue/Job.pm
-Makefile.PL
-MANIFEST			This list of files
-META.yml
-README
 t/01use.t
-t/02pod.t
-t/03podcoverage.t
-t/04jobqueue-job.t
+t/02jobqueue-job.t
+t/author-critic.t
 t/crontab
 t/lib/TestApp.pm
 t/lib/TestApp/Controller/Root.pm
+t/release-pod-coverage.t
+t/release-pod-syntax.t
 t/testapp.yml
 t/testapp_jobqueue.pl

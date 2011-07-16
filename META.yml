@@ -1,17 +1,22 @@
---- #YAML:1.0
-name:                Catalyst-Engine-JobQueue-POE
-version:             v0.0.1
-abstract:            Cron-like job runner engine
-license:             ~
-generated_by:        ExtUtils::MakeMaker version 6.31
-distribution_type:   module
-requires:     
-    Catalyst::Runtime:             5.7001
-    POE::Component::Cron:          0.014
-    Test::More:                    0
-    version:                       0
-meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
-    version: 1.2
+---
+abstract: 'Cron-like job runner engine'
 author:
-    - Kiki <kiki@bsdro.org>
+  - 'Gruen Christian-Rolf <kiki@abc.ro>'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200011, CPAN::Meta::Converter version 2.102400'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Catalyst-Engine-JobQueue-POE
+requires:
+  Catalyst::Runtime: 5.7001
+  Email::MIME::Creator: 0
+  Email::Send: 2.15
+  POE::Component::Cron: 0.014
+  Test::More: 0
+  version: 0
+version: 0.0.4
